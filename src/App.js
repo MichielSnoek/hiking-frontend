@@ -84,8 +84,8 @@ class App extends Component {
           
             {/* <Route exact path='/signup' render={() => <Signup getUser={this.getTheUser}/>}/>
             <Route exact path='/login' render={() => <Login getUser={this.getTheUser}/>}/> */}
-            <Route exact path="/trails" component={TrailsList}/>
-            <Route exact path="/trails/:id" component={TrailDetails} />
+            {/* <Route exact path="/trails" component={TrailsList}/>
+            <Route exact path="/trails/:id" component={TrailDetails} /> */}
             {/* <Route exact path="/PROFILE/:id" component={PROFILE} />       */}
           
           <Filters 
@@ -132,8 +132,8 @@ class App extends Component {
           <Switch>
             <Route exact path='/login' render={() => <Login getUser={this.getTheUser}/>}/>
             <Route exact path='/signup' render={() => <Signup getUser={this.getTheUser}/>}/>
-            <Route exact path="/trails" component={TrailsList}/>
-            <Route exact path="/trails/:id" component={TrailDetails} />
+            {/* <Route exact path="/trails" component={TrailsList}/>
+            <Route exact path="/trails/:id" component={TrailDetails} /> */}
 
             <div className="homepage">
               
