@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import './App.css';
 import { Switch, Route } from 'react-router-dom';
 
-import TrailsList from './components/trails/TrailsList';
+// import TrailsList from './components/trails/TrailsList';
 import Navbar from './components/navbar/Navbar';
-import TrailDetails from './components/trails/TrailDetails';
+// import TrailDetails from './components/trails/TrailDetails';
 
 import Signup from './components/auth/Signup';
 import AuthService from './service/auth-service';
